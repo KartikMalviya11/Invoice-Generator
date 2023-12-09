@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: "Lucida Sans", sans-serif;
+	/* border: 1px solid black; */
+}
+
+/*	
+	button:active{
+	background: yellow;
+	color: #000000;
+} */
+#id {
+	position: sticky;
+	right: 12%;
+	top: 10%;
+}
+
+fieldset {
+	max-width: fit-content;
+	padding: 50px;
+	margin: 20px auto;
+	border: 5px solid #843cae;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+legend {
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+
+
+table {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+/* 
+table td,
+th {
+	padding: 12px;
+	width: 150px;
+	margin: auto;
+	border: 2px solid #843cae;
+
+
+} */
+
+body {
+
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+
+h3,
+h1 {
+
+	font-size: 25px;
+
+}
+
+span {
+	margin: 10px;
+	font-size: 20px;
+}
+
+input {
+	background: transparent;
+	height: 100%;
+	width: 250px;
+	padding: 5px;
+	border: none;
+	margin: 8px;
+	border-bottom: 2px solid #843cae;
+	font-size: 18px;
+	outline: none;
+
+}
+
+input:hover {
+	border-radius: 5px;
+}
+
+input:focus {
+	top: -18px;
+}
+
+
+button {
+
+	font-size: 20px;
+	transition-duration: 0.2s;
+	border-radius: 8px;
+	border: 2px solid white;
+	background-color: #843cae;
+	padding: 17px 32px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	background-color: #e1cdec;
+	color: black;
+
+}
+
+.modal1 {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	animation-name: fadeIn;
+	animation-duration: 4.0s;
+	animation-name: fadeIn;
+	animation-duration: 0.4s;
+}
+
+.modal-content1 {
+	background: rgb(247, 248, 246);
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: auto;
+	animation-name: slideIn;
+	animation-duration: 00.4s;
+	animation-name: slideIn;
+	animation-duration: 00.4s;
+}
+
+.modal-content2 {
+	display: block;
+	transition: 0.3s;
+	margin-left: 10px;
+	padding: 10px;
+	align-items: center;
+}
+
+label {
+	font-size: 20px;
+
+}
+
+.close1 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.closebtn {
+	color: #aaaaaa;
+	font-size: 28px;
+	position: absolute;
+	right: 10px;
+	margin-left: 50px;
+	top: 5px;
+}
+
+.close1:hover,
+.close1:focus,
+.closebtn {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
+}
+
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: #ead3f7;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
+}

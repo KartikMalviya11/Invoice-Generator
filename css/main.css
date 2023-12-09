@@ -1,0 +1,64 @@
+.Personal{
+    margin-left: 300px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+.About_Us {
+    position:absolute;
+    left:100px;
+    top:70px;
+    font-size: 20px;
+    display: inline;
+    margin-left: 750px;
+}
+table th,tr{
+    font-size: 25px;
+    align-items: center;
+    border: 2px solid  black;
+	padding: 5px;
+    border-collapse: collapse;
+
+	
+
+}
+Table{
+    margin-left: 350px;
+   border-collapse: collapse;
+    
+}
+.total_Rs{
+    margin-left: 350px;
+    font-size: 30px;
+
+}
+.Amount_det{
+    margin-left: 300px ;
+    font-size: 20px;
+}
+
+.Bank_det{
+    margin-left: 300px;
+}
+.half{
+    margin-left: 258px;
+    
+}
+.Bank_det   label{
+    font-size: 18px;
+}
+.Tax_amt{
+    position:absolute;
+    left:250px;
+    top:430px;
+    font-size: 25px;
+    display: inline;
+    margin-left: 750px;
+
+}
+.sign{
+    margin-left: 280px;
+}

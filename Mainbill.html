@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="MainBill.css">
+	
+	<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<script  src="html2pdf.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<div id="form1">
+
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="background1.jpg" width=612 height=792></div>
+<div style="position:absolute;left:56.76px;top:130.26px" class="cls_003"><span class="cls_003">INVOICE</span></div>
+<div style="position:absolute;left:54.00px;top:207.02px" class="cls_004"><span class="cls_004">Date: </span>
+</div>
+<div style="position:absolute;left:86.00px;top:194.02px" class="cls_004"><span class="cls_004"><p id="date"></p> </span>
+</div>
+<div style="position:absolute;left:143.25px;top:207.02px" class="cls_004"><span class="cls_004">Invoice No.2021-22/05/003</span></div>
+<div style="position:absolute;left:328.80px;top:204.26px" class="cls_002"><span class="cls_002">Hashstar Online Services Private Limited</span></div>
+<div style="position:absolute;left:328.44px;top:225.02px" class="cls_004"><span class="cls_004">At.Post. Bhugaon, Tal. Achalpur, Dist. Amravati</span></div>
+<div style="position:absolute;left:54.00px;top:240.62px" class="cls_004"><span class="cls_004">Invoice To:</span></div>
+<div style="position:absolute;left:150.08px;top:240.62px" class="cls_004"><span class="cls_004" id="uname"></span></div>
+<div style="position:absolute;left:328.44px;top:240.62px" class="cls_004"><span class="cls_004">Maharashtra 444806</span></div>
+<div style="position:absolute;left:53.88px;top:255.65px" class="cls_004"><span class="cls_004">Address :</span></div>
+<div style="position:absolute;left:150.84px;top:255.74px" class="cls_004"><span class="cls_004" id="addrs"></span></div>
+<div style="position:absolute;left:328.44px;top:255.70px" class="cls_004"><span class="cls_004">Contact:</span></div>
+<div style="position:absolute;left:373.08px;top:255.74px" class="cls_004"><span class="cls_004">+91-9665969258 / +91-9766606646</span></div>
+<div style="position:absolute;left:328.44px;top:270.86px" class="cls_004"><span class="cls_004">Email:</span></div>
+<div style="position:absolute;left:373.08px;top:270.86px" class="cls_008"><span class="cls_008">contact@hashstar.in</span></div>
+<div style="position:absolute;left:53.88px;top:270.98px" class="cls_004"><span class="cls_004">Contact :</span></div>
+<div style="position:absolute;left:150.08px;top:270.98px" class="cls_004"><span class="cls_004" id="phn"></span></div>
+
+<div style="position:absolute;left:53.88px;top:285.98px" class="cls_004"><span class="cls_004">Email :</span></div>
+<div style="position:absolute;left:150.08px;top:285.98px" class="cls_004"><span class="cls_004" id="mail"></span></div>
+
+
+<div style="position:absolute;left:328.44px;top:285.98px" class="cls_004"><span class="cls_004">Website:</span><span class="cls_005">  </span><A HREF="http://www.hashstar.in/">www.hashstar.in</A> </span></div>
+<div style="position:absolute;left:58.32px;top:331.82px" class="cls_004"><span class="cls_004">Sr. No.</span></div>
+<div style="position:absolute;left:185.04px;top:331.82px" class="cls_004"><span class="cls_004">Description</span></div>
+<div style="position:absolute;left:338.64px;top:331.82px" class="cls_004"><span class="cls_004">Rate</span></div>
+<div style="position:absolute;left:382.92px;top:331.82px" class="cls_004"><span class="cls_004">Qty.   HSN/SAC</span></div>
+<div style="position:absolute;left:494.74px;top:331.82px" class="cls_004"><span class="cls_004">Amount</span></div>
+<div style="position:absolute;left:53.88px;top:583.34px" class="cls_004"><span class="cls_004">Rupees One Thousand Four Hundred Nine Only</span></div>
+<div style="position:absolute;left:406.92px;top:582.74px" class="cls_007"><span class="cls_007">Total</span></div>
+<div style="position:absolute;left:484.56px;top:582.74px" class="cls_007"><span class="cls_007">INR 1,409.0</span></div>
+<div style="position:absolute;left:182.64px;top:600.02px" class="cls_004"><span class="cls_004">Bank Details</span></div>
+<div style="position:absolute;left:449.66px;top:600.02px" class="cls_004"><span class="cls_004">Terms</span></div>
+<div style="position:absolute;left:53.88px;top:615.14px" class="cls_004"><span class="cls_004">Bank Name</span></div>
+<div style="position:absolute;left:143.13px;top:615.14px" class="cls_004"><span class="cls_004">Kotak Mahindra Bank, Amravati Branch</span></div>
+<div style="position:absolute;left:53.88px;top:630.26px" class="cls_004"><span class="cls_004">Account No.</span></div>
+<div style="position:absolute;left:143.16px;top:630.26px" class="cls_004"><span class="cls_004">554 557 9035</span></div>
+<div style="position:absolute;left:53.88px;top:645.38px" class="cls_004"><span class="cls_004">IFSC Code.</span></div>
+<div style="position:absolute;left:143.16px;top:645.38px" class="cls_004"><span class="cls_004">KKBK0002048</span></div>
+<div style="position:absolute;left:53.88px;top:660.02px" class="cls_004"><span class="cls_004">MICR</span></div>
+<div style="position:absolute;left:143.16px;top:660.02px" class="cls_004"><span class="cls_004">444485101</span></div>
+<div style="position:absolute;left:53.88px;top:676.34px" class="cls_004"><span class="cls_004">Reciever's Signature</span></div>
+<div style="position:absolute;left:402.36px;top:676.34px" class="cls_004"><span class="cls_004">For Hashstar Online Services Pvt. Ltd.</span></div>
+
+<div style="position:absolute;left:386.88px;top:507.62px" class="cls_004"><span class="cls_004">Taxable Amount</span></div>
+<div style="position:absolute;left:504.12px;top:507.62px" class="cls_004"><span class="cls_004">1379</span></div>
+<div style="position:absolute;left:85.92px;top:511.10px" class="cls_004"><span class="cls_004">INVOICE TOTAL</span></div>
+<div style="position:absolute;left:215.40px;top:506.67px" class="cls_006"><span class="cls_006">Rs.</span></div>
+<div style="position:absolute;left:280.77px;top:506.67px" class="cls_006"><span class="cls_006">1409.00</span></div>
+<div style="position:absolute;left:376.08px;top:521.90px" class="cls_004"><span class="cls_004">CGST %</span></div>
+<div style="position:absolute;left:439.68px;top:521.90px" class="cls_004"><span class="cls_004">0</span></div>
+<div style="position:absolute;left:511.68px;top:521.90px" class="cls_004"><span class="cls_004">0</span></div>
+<div style="position:absolute;left:54.00px;top:537.86px" class="cls_004"><span class="cls_004">Tax Amount In Words</span></div>
+<div style="position:absolute;left:377.28px;top:537.86px" class="cls_004"><span class="cls_004">SGST %</span></div>
+<div style="position:absolute;left:439.68px;top:537.86px" class="cls_004"><span class="cls_004">0</span></div>
+<div style="position:absolute;left:511.68px;top:537.86px" class="cls_004"><span class="cls_004">0</span></div>
+<div style="position:absolute;left:53.88px;top:552.98px" class="cls_004"><span class="cls_004">Rupees Thirty  Only</span></div>
+<div style="position:absolute;left:378.36px;top:552.98px" class="cls_004"><span class="cls_004">IGST %</span></div>
+<div style="position:absolute;left:439.68px;top:552.98px" class="cls_004"><span class="cls_004">0</span></div>
+<div style="position:absolute;left:511.68px;top:552.98px" class="cls_004"><span class="cls_004">0</span></div>
+<div style="position:absolute;left:54.00px;top:568.10px" class="cls_004"><span class="cls_004">Total Amount In Words</span></div>
+<div style="position:absolute;left:403.68px;top:568.10px" class="cls_004"><span class="cls_004">Delivery</span></div>
+<div style="position:absolute;left:509.07px;top:568.10px" class="cls_004"><span class="cls_004">30</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="background2.jpg" width=612 height=792></div>
+
+<div style="position:absolute;left:470.64px;top:143.66px" class="cls_004"><span class="cls_004">Authorized Signature</span></div>
+</div>
+</div>
+
+<script src="MainBill.js"></script>
+
+</body>
+</html>
